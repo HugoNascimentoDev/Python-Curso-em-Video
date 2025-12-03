@@ -4,5 +4,12 @@
 
 from math import factorial
 num = int(input('Digite um número para calcular seu Fatorial: '))
-resultado = factorial(num)
-print(f'Calculando {num}! = {resultado}')
+fatorial = factorial(num)
+
+print(f'Calculando {num}! = ', end = '')
+c = num
+while c > 0:
+    print(f'{c}', end= '')
+    print(f' x ' if c > 1 else ' = ', end = '')
+    c -= 1
+print(f'{fatorial}')
