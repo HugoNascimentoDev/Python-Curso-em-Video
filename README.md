@@ -31,5 +31,5 @@ Este repositório reúne meus estudos e exercícios das aulas de **Python** e do
 ## 🚀 Como usar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/HugoNascimentoDev/PYTHON-CURSO-EM-VIDEO-GUSTAVO-GUANABARA
+   git clone https://github.com/HugoNascimentoDev/Python-Curso-em-Video
 
