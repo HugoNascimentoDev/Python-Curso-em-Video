@@ -8,3 +8,14 @@
 # ~~~~~~~~~
 #  Olá, Mundo!
 # ~~~~~~~~~
+
+def escreva():
+    texto = input('Digite um texto: ')
+    qtd_final = (int(len(texto)) + 6)
+    print('~' * qtd_final)
+    print(f'{texto:^{qtd_final}}')
+    print('~' * qtd_final)
+
+escreva()
+
+
