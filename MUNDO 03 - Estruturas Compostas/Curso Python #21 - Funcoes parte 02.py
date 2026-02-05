@@ -63,3 +63,33 @@ r3 = somar2(5, 8)
 
 print(f'Minhas somas foram iguais a... {r1}, {r2}, {r3}!')
 
+
+def fatorial (num = 1):
+    f = 1
+    for c in range (num, 0, -1):
+        f *= c
+    return f
+
+n = int(input('Digite um número: '))
+print(f'O fatorial de {n} é igual a {fatorial(n)}')
+
+
+f1 = fatorial(10)
+f2 = fatorial(5)
+f3 = fatorial(3)
+
+print(f'''RESULTADO FATORIAL: 
+F1 = {f1}
+F2 = {f2}
+F3 = {f3}''')
+
+
+def par (num = 0):
+    if num % 2 == 0:
+        return True
+    else:
+        return False
+    
+num = int(input('Digite um número: '))
+
+print(F'O número é PAR???? {par(num)}')
